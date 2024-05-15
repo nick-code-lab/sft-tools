@@ -112,7 +112,7 @@ def patch_model(
         print_attn_implementation(model.config)
 
     try:
-        model.add_model_tags(["llama-factory"])
+        model.add_model_tags(["sft-tools"])
     except Exception:
         logger.warning("Cannot properly tag the model.")
 

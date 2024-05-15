@@ -11,7 +11,6 @@ from ..extras.packages import is_galore_available
 from ..hparams import FinetuningArguments, ModelArguments
 from ..model import find_all_linear_modules, load_model, load_tokenizer, load_valuehead_params
 
-
 if is_galore_available():
     from galore_torch import GaLoreAdafactor, GaLoreAdamW, GaLoreAdamW8bit
 
@@ -56,7 +55,7 @@ def create_modelcard_and_push(
     kwargs = {
         "tasks": "text-generation",
         "finetuned_from": model_args.model_name_or_path,
-        "tags": ["llama-factory", finetuning_args.finetuning_type],
+        "tags": ["sft-tools", finetuning_args.finetuning_type],
     }
     if data_args.dataset is not None:
         kwargs["dataset"] = [dataset.strip() for dataset in data_args.dataset.split(",")]
