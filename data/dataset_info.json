@@ -23,6 +23,10 @@
     "file_name": "rgm_knowledge.json",
     "file_sha1": ""
   },
+  "huanhuan": {
+    "file_name": "huanhuan.json",
+    "file_sha1": ""
+  },
   "oaast_sft_zh": {
     "file_name": "oaast_sft_zh.json",
     "file_sha1": "a6a91f18f80f37b10ded9cf633fb50c033bf7b9f",
