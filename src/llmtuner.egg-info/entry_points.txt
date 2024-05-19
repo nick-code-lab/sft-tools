@@ -1,0 +1,2 @@
+[console_scripts]
+sft-cli = llmtuner.cli:main
