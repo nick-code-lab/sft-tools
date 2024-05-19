@@ -31,6 +31,14 @@
     "file_name": "huanhuan_identity.json",
     "file_sha1": ""
   },
+  "ruozhiba": {
+    "file_name": "ruozhiba.json",
+    "file_sha1": ""
+  },
+  "ruozhiba_identity": {
+    "file_name": "ruozhiba_identity.json",
+    "file_sha1": ""
+  },
   "oaast_sft_zh": {
     "file_name": "oaast_sft_zh.json",
     "file_sha1": "a6a91f18f80f37b10ded9cf633fb50c033bf7b9f",
