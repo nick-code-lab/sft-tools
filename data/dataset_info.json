@@ -27,6 +27,10 @@
     "file_name": "huanhuan.json",
     "file_sha1": ""
   },
+  "ds_data": {
+    "file_name": "ds_data.json",
+    "file_sha1": ""
+  },
   "huanhuan_identity": {
     "file_name": "huanhuan_identity.json",
     "file_sha1": ""
